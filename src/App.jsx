@@ -5,7 +5,7 @@ import Home from "./screens/Home";
 function App() {
 
   return (
-    <div>
+    <div className="w-screen h-screen p-2">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
